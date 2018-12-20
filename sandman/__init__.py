@@ -5,8 +5,8 @@ associated database table, and off you go! The generated API essentially exposes
 a completely new system based on your existing data, using HATEOAS."""
 
 from flask import Flask
-from flask.ext.sqlalchemy import SQLAlchemy
-from flask.ext.httpauth import HTTPBasicAuth
+from flask_sqlalchemy import SQLAlchemy
+from flask_httpauth import HTTPBasicAuth
 
 app = Flask(__name__)
 app.secret_key = '42'
