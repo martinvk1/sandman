@@ -4,7 +4,7 @@ a table in the database that should be modeled as a resource."""
 from decimal import Decimal
 
 from flask import current_app
-from flask.ext.admin.contrib.sqla import ModelView
+from flask_admin.contrib.sqla import ModelView
 
 from sandman import app, db
 
