@@ -3,8 +3,8 @@ import webbrowser
 import collections
 
 from flask import current_app, g
-from flask.ext.admin import Admin
-from flask.ext.admin.contrib.sqla import ModelView
+from flask_admin import Admin
+from flask_admin.contrib.sqla import ModelView
 from sqlalchemy.engine import reflection
 from sqlalchemy.ext.declarative import declarative_base, DeferredReflection
 from sqlalchemy.orm import relationship
